@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z4BEasKrZtCgZ5cmO//4hDxnzza6P0TJB8GWjuf1ZzrbZCPtfpiTvGTCqlqHMz+hZ7E7sq975V1OOJLFlNRZLQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\YourPen\\YourPen.Domain.Core\\YourPen.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\polya\\.nuget\\packages\\linqspecs\\3.1.1\\linqspecs.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

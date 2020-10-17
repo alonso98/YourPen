@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LinqSpecs/3.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/LinqSpecs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/LinqSpecs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LinqSpecs/3.1.1": {
+      "sha512": "goXyIg2KqUwgLVs5iP99HRyNTjHUNURp6VtNqzZwyqhf4HDiEPvd5f15HzATD6sUB8jI2AcuVbL5OInibay+JQ==",
+      "type": "package",
+      "path": "linqspecs/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LinqSpecs.dll",
+        "lib/net40/LinqSpecs.xml",
+        "lib/netstandard2.0/LinqSpecs.dll",
+        "lib/netstandard2.0/LinqSpecs.xml",
+        "lib/netstandard2.1/LinqSpecs.dll",
+        "lib/netstandard2.1/LinqSpecs.xml",
+        "license.txt",
+        "linqspecs.3.1.1.nupkg.sha512",
+        "linqspecs.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "LinqSpecs >= 3.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\polya\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\YourPen\\YourPen.Domain.Core\\YourPen.Domain.Core.csproj",
+      "projectName": "YourPen.Domain.Core",
+      "projectPath": "D:\\Projects\\YourPen\\YourPen.Domain.Core\\YourPen.Domain.Core.csproj",
+      "packagesPath": "C:\\Users\\polya\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\YourPen\\YourPen.Domain.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\polya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "LinqSpecs": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
