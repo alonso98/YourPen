@@ -7,11 +7,9 @@ using YourPen.Domain.Core.Entities.Topics;
 
 namespace YourPen.Domain.Core.Entities.Users
 {
-    public class User : IEntity<Guid>
+    public class User : Entity
     {
         #region Props
-        public Guid Id { get; set ; }
-
         public virtual string UserName { get; protected set; }
 
         public virtual string Password { get; protected set; }
@@ -28,21 +26,7 @@ namespace YourPen.Domain.Core.Entities.Users
         #endregion
 
         #region Static methods
-        public static User Create(string email,
-                                  string username,
-                                  string password,
-                                  string salt)
-        {
-            if (string.IsNullOrWhiteSpace(email))
-                throw new ArgumentNullException(email);
-
-            var emailWrapper = new Email(email);
-
-            return Create(Guid.NewGuid(), emailWrapper, username, password, salt, Roles.User);
-        }
-
-        public static User Create(Guid id,
-                                  Email email,
+        public static User Create(Email email,
                                   string username,
                                   string password,
                                   string salt,
@@ -62,7 +46,6 @@ namespace YourPen.Domain.Core.Entities.Users
 
             User user = new User
             {
-                Id = id,
                 CreatingDate = DateTime.Now,
                 Email = email,
                 UserName = username,

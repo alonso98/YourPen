@@ -1,0 +1,8 @@
+﻿
+---------Add migration---------------
+
+EntityFrameworkCore\Add-Migration *Name
+
+---------Update database-------------
+
+EntityFrameworkCore\Update-Database

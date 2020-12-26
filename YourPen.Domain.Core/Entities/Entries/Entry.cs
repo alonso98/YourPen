@@ -6,10 +6,8 @@ using YourPen.Domain.Core.Entities.Topics;
 
 namespace YourPen.Domain.Core.Entities.Entries
 {
-    public class Entry : IEntity
+    public class Entry : Entity
     {
-        public int Id { get; set; }
-
         public virtual string Text { get; protected set; }
 
         public virtual string Head { get; protected set; }
@@ -25,15 +23,13 @@ namespace YourPen.Domain.Core.Entities.Entries
         //public virtual ReadOnlyCollection<Link> Links { get { return links.AsReadOnly(); } }
 
         #region Static methods
-        public static Entry Create(int id,
-                                   string head,
+        public static Entry Create(string head,
                                    string text,
                                    int topicId,
                                    EntryTypes type)
         {
             var note = new Entry
             {
-                Id = id,
                 Head = head,
                 Text = text,
                 TopicId = topicId,

@@ -1,0 +1,15 @@
+D:\Projects\YourPen\YourPen.Infrastructure.Data\bin\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.deps.json
+D:\Projects\YourPen\YourPen.Infrastructure.Data\bin\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.runtimeconfig.json
+D:\Projects\YourPen\YourPen.Infrastructure.Data\bin\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.runtimeconfig.dev.json
+D:\Projects\YourPen\YourPen.Infrastructure.Data\bin\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.dll
+D:\Projects\YourPen\YourPen.Infrastructure.Data\bin\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.pdb
+D:\Projects\YourPen\YourPen.Infrastructure.Data\bin\Debug\netcoreapp3.1\YourPen.Domain.Core.dll
+D:\Projects\YourPen\YourPen.Infrastructure.Data\bin\Debug\netcoreapp3.1\YourPen.Domain.Core.pdb
+D:\Projects\YourPen\YourPen.Infrastructure.Data\obj\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.csprojAssemblyReference.cache
+D:\Projects\YourPen\YourPen.Infrastructure.Data\obj\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.AssemblyInfoInputs.cache
+D:\Projects\YourPen\YourPen.Infrastructure.Data\obj\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.AssemblyInfo.cs
+D:\Projects\YourPen\YourPen.Infrastructure.Data\obj\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.csproj.CoreCompileInputs.cache
+D:\Projects\YourPen\YourPen.Infrastructure.Data\obj\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.csproj.CopyComplete
+D:\Projects\YourPen\YourPen.Infrastructure.Data\obj\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.dll
+D:\Projects\YourPen\YourPen.Infrastructure.Data\obj\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.pdb
+D:\Projects\YourPen\YourPen.Infrastructure.Data\obj\Debug\netcoreapp3.1\YourPen.Infrastructure.Data.genruntimeconfig.cache
